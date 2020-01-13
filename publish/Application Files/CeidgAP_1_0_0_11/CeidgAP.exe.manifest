@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CeidgAP.exe" version="1.0.0.11" publicKeyToken="110b177666365b0b" language="pl-PL" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CeidgAP" version="1.0.0.0" publicKeyToken="110B177666365B0B" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CeidgAP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CeidgAP.exe" size="185928">
+      <assemblyIdentity name="CeidgAP" version="1.0.0.0" publicKeyToken="110B177666365B0B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9BrzJsLNZgjKl3Udmggtv0pZyiHIy3y5hhj3M42NiVw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CeidgAP.exe.config" size="1488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vDnqsv6UdHRPlaPC5NW2O1x1xcvV2loeukLSi1HP51Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PKDindex.txt" size="10048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AWh5i4ByKlQh/5cdb++yoPx5u0MD0XqhJH+KHZj91OA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PKDtext.txt" size="95658">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I3QtTzHMrcsrB7CNErLLOZwHRE80uXWqwYyEzm3EhRw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DataAssemble" issuerKeyHash="9273d0a4dddf9489e1456e8fcb80e3c436072212" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>B0WvJFq/4QdyYnllcLwFSZpgt+k=</DigestValue></Reference></SignedInfo><SignatureValue>RnLjWCa+Se/ahAWt3c/Rx3HaFPXGtgH8NLoL181XaMI1kpKxDTW3KGi7TrNJ/i9WTw5S2rLG1zFY2/HVRi9LewQx2usdDNVgGdqzmZX8igmn2mhM5ww1Ke8t2nMjSGzUu4zZYvtooLX4o9Qa8Ox8VOt0un5GcEsyb8GrmSD6v899hlAEoWuEzGKltaFKzN1RybjsEDzRtr7jbxTFD5FNqmqjc3APYBR5RUubfmOnGNjFeNEr4WBoM4wCr3KlM1+AjMymqAax+akU+pFYequYAOCl/x1w254h8VE1qR6x+gWhZv5mMlG6ERgXUei7lDE5JB6TAjb/RFwsdjPuqcFM69pq4tWJszwcSvkCCRr3Kwv+AiR9MHj6JQZJVutOr1RS3mS2COZtM+WUe/LF7W6K9U2CofU9HPbVOJ5e1RwNk0cRfIAH+Jb4nD/StMePh0ObxYMILkpmB7JIGRLJiyBcASx6pulxHx8FSpo/TCnniF1RpRTjhKwIZqS/7DLhnGaQKV3RslAwI5JBMM74is0FunFnoydiLziGqPnamhWjswuXNdI1td7yn9KV7bdYFV2eU2j09QzV3v1DiXo44s5F8WxP+naHHP5MMXsj4wdBh8tuPeNu1q+QyTjNnCswAb578Ke5/9LJZ42sXSJ/BQrMJ17+eQuGSr2S98lIh3TJW8w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rx+oMeh85bWWBU9okRKxAGxqZ8NDUQw4i35IcIa2wyy0MHmiBOiqkuxQbKKvd8nZDM9/lz9MG4VviWPkt2BSrTtlfzZOgMBX7ke4bNRVcyg+C6u46C4tkVTF9N4uB0Sl4tsNASN3NEiZZ8ht+1vTlADBe3mk9dtLZbKvVAWExnvMjITDCVEqHerEhn/tva0o5bQkZPqxexJcOwClMY4jlpicojCvBR/SHorYLe0YlZqvvESDmHUVNV1FdPbPMAHh7dTlnECdsxJby6MbrHIgNcVsXbVUmHhHJGn8uY4jEdpcY4dN9pZ5mjcw8w+r0zs2/ThmAhG55dHGGzUkmXCSthuTObFMkBBoMFNQF7fmDHEk+1TCJSDFOQj80/N41gfUbQVStCWfurUtv/xSvPGvoGkbvzn4EQ8qnIGqIJqakuZIugmhYMgvfImwxb1Q0KCkgker7wcsiNXgAzUFh1KVwpRr7AGERPxJfqDEJT+84gb8WbGe1upj6xDgy6ApkdCXmDmQmXTtrOXWPV7uODYiG8jO8gmgwueRORliOQQNIAEBGZXnvQxcGG2phuuIC4ierqVhckxX4nIRIUJBTdQ66/09X6RfwoDtVR9jJ1ErQj05I2AO002FZdj6/N7bcXGHg5deb66R3z8vudXanNBbfHusYEkOCzWk9LedudQcWdU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e9b7609a4905bc706579627207e1bf5a24af4507" Description="" Url=""><as:assemblyIdentity name="CeidgAP.exe" version="1.0.0.11" publicKeyToken="110b177666365b0b" language="pl-PL" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DataAssemble</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>imBA/eYfw9eChm6mo8GILg3cjfE=</DigestValue></Reference></SignedInfo><SignatureValue>qP89fs+zDw/T2Rzgs+TyhAOB+bTmc7xMBv2BNZwokcHrtm4RX6sG8I5510E5K1geQ3c+wKzSyvPgdUk0sIZPcsiPIzncPBwSJmF5ZMoauqD+N5M2U5jlFX2rfN7oZeVpPT+v/fBUhJ5NNB/0kBW1DhCASy1uNfIXG29Fy+6pftowfV3MpdKCV295I8K1A8iAP8h2Dg+eANKLgdfbX1PGatY+fD4Q88Ibdy7hjYP7jTambrRm8WEYHsqlkiwfez0bPaF01AznaWG5gXFNZEGdnxRFt1C9k+Ly/c8HZkgnJrkV8rV12LQElsO+sUxPiEkqCGlYZbDSLNKvAC3C/Xf+77ZPtxvLmJ+5Jpot0NAAwBMAn28s2x9LlIJsGeGpLWZOQmN3IHBh5rccA7inK9ExyjkZfwgxxcWt0p+VSzFtyzhddEWod4u13ajc+OoyTxvxJe+DPVOZlmniyAakzof0/Idy08grKfBEK4jWCDK1CLQNwse5R8fnB0LPVQ/0QQx89kdyLaxY0KLG+skUNH1G/1mGGU84H7RYfZs939u68k+cqOBd7c0gUHf3aoSEiKKUZ0FhH07ygpvaE2Mp4TzKMT6k/rCT04c5+9NgX1c9vRicSwPutq8Utg/x5Ay7kERzuWG3ewzeI3S2HVcaIeneWGwcyfGP3AaXfc+l7moDZBE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rx+oMeh85bWWBU9okRKxAGxqZ8NDUQw4i35IcIa2wyy0MHmiBOiqkuxQbKKvd8nZDM9/lz9MG4VviWPkt2BSrTtlfzZOgMBX7ke4bNRVcyg+C6u46C4tkVTF9N4uB0Sl4tsNASN3NEiZZ8ht+1vTlADBe3mk9dtLZbKvVAWExnvMjITDCVEqHerEhn/tva0o5bQkZPqxexJcOwClMY4jlpicojCvBR/SHorYLe0YlZqvvESDmHUVNV1FdPbPMAHh7dTlnECdsxJby6MbrHIgNcVsXbVUmHhHJGn8uY4jEdpcY4dN9pZ5mjcw8w+r0zs2/ThmAhG55dHGGzUkmXCSthuTObFMkBBoMFNQF7fmDHEk+1TCJSDFOQj80/N41gfUbQVStCWfurUtv/xSvPGvoGkbvzn4EQ8qnIGqIJqakuZIugmhYMgvfImwxb1Q0KCkgker7wcsiNXgAzUFh1KVwpRr7AGERPxJfqDEJT+84gb8WbGe1upj6xDgy6ApkdCXmDmQmXTtrOXWPV7uODYiG8jO8gmgwueRORliOQQNIAEBGZXnvQxcGG2phuuIC4ierqVhckxX4nIRIUJBTdQ66/09X6RfwoDtVR9jJ1ErQj05I2AO002FZdj6/N7bcXGHg5deb66R3z8vudXanNBbfHusYEkOCzWk9LedudQcWdU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIFFTCCAv2gAwIBAgIQ2ZChaA2uHZFANxgs0ElCvDANBgkqhkiG9w0BAQ0FADAXMRUwEwYDVQQDEwxEYXRhQXNzZW1ibGUwHhcNMjAwMTEzMDQwOTM2WhcNMzkxMjMxMjM1OTU5WjAXMRUwEwYDVQQDEwxEYXRhQXNzZW1ibGUwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCvH6gx6HzltZYFT2iRErEAbGpnw0NRDDiLfkhwhrbDLLQweaIE6KqS7FBsoq93ydkMz3+XP0wbhW+JY+S3YFKtO2V/Nk6AwFfuR7hs1FVzKD4Lq7joLi2RVMX03i4HRKXi2w0BI3c0SJlnyG37W9OUAMF7eaT120tlsq9UBYTGe8yMhMMJUSod6sSGf+29rSjltCRk+rF7Elw7AKUxjiOWmJyiMK8FH9Ieitgt7RiVmq+8RIOYdRU1XUV09s8wAeHt1OWcQJ2zElvLoxusciA1xWxdtVSYeEckafy5jiMR2lxjh032lnmaNzDzD6vTOzb9OGYCEbnl0cYbNSSZcJK2G5M5sUyQEGgwU1AXt+YMcST7VMIlIMU5CPzT83jWB9RtBVK0JZ+6tS2//FK88a+gaRu/OfgRDyqcgaogmpqS5ki6CaFgyC98ibDFvVDQoKSCR6vvByyI1eADNQWHUpXClGvsAYRE/El+oMQlP7ziBvxZsZ7W6mPrEODLoCmR0JeYOZCZdO2s5dY9Xu44NiIbyM7yCaDC55E5GWI5BA0gAQEZlee9DFwYbamG64gLiJ6upWFyTFfichEhQkFN1Drr/T1fpF/CgO1VH2MnUStCPTkjYA7TTYVl2Pr83ttxcYeDl15vrpHfPy+51dqc0Ft8e6xgSQ4LNaT0t5251BxZ1QIDAQABo10wWzAPBgNVHRMBAf8EBTADAQH/MEgGA1UdAQRBMD+AEF8FmtX1t6JQfW99PtCRylmhGTAXMRUwEwYDVQQDEwxEYXRhQXNzZW1ibGWCENmQoWgNrh2RQDcYLNBJQrwwDQYJKoZIhvcNAQENBQADggIBAKhok+eGUI31qPqpiG4QGI4/LYJZ9BE+5ri48D84+JmBcCh/q+vYccCfUGMDSv5okarkqSEuppMn2khrGLTmzcVLibHQa8sr6i5+uEANx9GahVyKQNY5aYnNmau3FYPBCvGSvcLBFwCgEHXdvEF/tVw/fXALYUKyMIrvHnxfmCVhPLIewk3kGQBSsdMYn+hzZkp7mxG1/dT+jUKUJgo1nsmQdz3UJIoW7ADFO7fQhq09ncRyRyv482BIoJDddK97hstgUU70CSdR0zwFii8QBklDIr6aPBewARyhVZ5m2WUHbqa6c4IDx42Wbts6YvHyTYjL+Mi3Ez5TuCWO7IcCQraDIQ12oGG91X2XVughTurRWIax0kdGpSzPhXaGapK/Y4PlMJK/wz/ioD/mrauGy10jbbdDmrTxL5la1w/Du165yWHRwTmqmMVzvYJUwsgVych+uUGRuRw469Xq0tjQB8IwxHo0E1tR1buUXAMYFqdt2Ou9CL+Mw1UeHVv6xV3bPyfkry2W4iNcL7DhY/4Zcl8i6jU0Md+dr0ikCeYmK7BbW2eBdblkgO7H+CjMjxAalUrcWiT2jzXBBySMdP/GJyd9IAsFiCiwZ322ZaUInC0qqFvummq8jPBpFUZcI3WaR+VH3bDpSMMhrt84bT8YsrcKhOWyQak853OGLrjrK/Et</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
